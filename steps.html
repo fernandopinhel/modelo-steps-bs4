@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Estilo CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+  <!-- <link href="libs/bootstrap4-glyphicons-master/bootstrap4-glyphicons/css/bootstrap-glyphicons.min.css" rel="stylesheet" type="text/css" /> -->
+
+
+    <title>Auto Vistoria</title>
+  </head>
+  <body>
+    <section class="process-tabs">
+      <div class="container">
+        <button type="button" name="button" class="btn next arrow-right-tab"></button>
+        <ul class="nav nav-tabs process-model" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#dados-pessoais" aria-controls="dados-pessoais" role="tab" data-toggle="tab">
+              <span class="border-active">
+                <span>
+                  <img src="img/icon-dados-pessoais.png">
+                </span>
+              </span>
+              <p>Dados pessoais</p>
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#dados-veiculos" aria-controls="dados-veiculos" role="tab" data-toggle="tab">
+              <span class="border-active">
+                <span>
+                  <img src="img/icon-dados-veiculos.png">
+                </span>
+              </span>
+              <p>Dados do veículo</p>
+            </a>
+          </li>
+          <li role="presentation">
+            <a href="#vistoria" aria-controls="vistoria" role="tab" data-toggle="tab">
+              <span class="border-active">
+                <span>
+                  <img src="img/icon-vistoria.png">
+                </span>
+              </span>
+              <p>Vistoria</p>
+            </a>
+          </li>
+        </ul>
+        <button type="button" name="button" class="btn prev arrow-left-tab"></button>
+        <div class="tab-content">
+          <!-- DADOS PESSOAIS -->
+          <div role="tabpanel" class="tab-pane active" id="dados-pessoais">
+            <div class="design-process-content bg-blank">
+              <h4>Dados pessoais</h4>
+            </div>
+          </div>
+          <!-- DADOS VEÍCULO -->
+          <div role="tabpanel" class="tab-pane" id="dados-veiculos">
+            <div class="design-process-content bg-blank">
+              <h4>Dados do veículo</h4>
+            </div>
+          </div>
+          <!-- DETALHES DA VISTORIA -->
+          <div role="tabpanel" class="tab-pane" id="vistoria">
+            <div class="design-process-content bg-blank">
+              <h4>Vistoria</h4>
+            </div>
+          </div>
+        </div>
+        <div class="buttons-tab">
+          <button type="button" name="button" class="btn btn-second float-left prev">Anterior</button>
+          <button type="button" name="button" class="btn btn-primary float-right next">Próximo</button>
+          <button type="button" name="button" class="btn btn-final float-right">Finalizar</button>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/offcanvas.js"></script>
+        <script  src="js/script.js"></script>
+
+    </body>
+</html>
