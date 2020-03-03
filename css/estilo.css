@@ -192,6 +192,29 @@
   display: none;
 }
 
+.btn-prev, .btn-next, .btn-final{
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.btn-next, .btn-next:hover, .btn-next:visited, .btn-next:focus {
+  background: #0095DA;
+  color: #fff;
+}
+
+.btn-prev, .btn-prev:hover, .btn-prev:visited, .btn-prev:focus{
+  background: #d2d2d2;
+  color: #fff;
+}
+
+.btn-final, .btn-final:hover, .btn-final:visited, .btn-final:focus{
+  background: #10C25D;
+  color: #fff;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .process-model li:first-child::after {
     left: 212px;

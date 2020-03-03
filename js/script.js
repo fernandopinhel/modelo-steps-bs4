@@ -33,4 +33,21 @@ $('button.prev').click(function() {
   $('.nav li.active').prev('li').find('a').attr("data-toggle","tab").trigger("click");
   $(".tab-pane").addClass("animation-to-right");
   $(".tab-pane").removeClass("animation-to-left");
+  $(".btn-final").addClass("d-none");
+  $(".btn-next").removeClass("d-none");
+});
+
+$('a[href="#vistoria"]').click(function(){
+	$(".btn-final").removeClass("d-none");
+  $(".btn-next").addClass("d-none");
+});
+
+$('a[href="#dados-veiculos"]').click(function(){
+	$(".btn-final").addClass("d-none");
+  $(".btn-next").removeClass("d-none");
+});
+
+$('a[href="#dados-pessoais"]').click(function(){
+  $(".btn-final").addClass("d-none");
+  $(".btn-next").removeClass("d-none");
 });
