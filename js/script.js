@@ -23,6 +23,11 @@ $('.process-model li.active').click(function(){
   $(".tab-pane").addClass("animation-to-right");
 });
 
+$('.process-model li.visited.active').click(function(){
+  $(".tab-pane").removeClass("animation-to-right");
+  $(".tab-pane").addClass("animation-to-left");
+});
+
 $('button.next').click(function(){
   $('.nav li.active').next('li').find('a').attr("data-toggle","tab").trigger("click");
   $(".tab-pane").addClass("animation-to-left");
